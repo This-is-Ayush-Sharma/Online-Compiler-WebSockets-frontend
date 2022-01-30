@@ -11,7 +11,7 @@ function App() {
 
   const [Code, setCode] = useState("");
 
-  const [Input, setInput] = useState("");
+  const [Input, setInput] = useState("Please enter the input before running the code");
 
   const [Output, setOutput] = useState("Run to c output");
 
