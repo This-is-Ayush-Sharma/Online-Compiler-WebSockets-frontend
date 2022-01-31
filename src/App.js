@@ -65,7 +65,7 @@ function App() {
           </div>
         </div>
         <div className='codeArea'>
-          <textarea placeholder='please write your code here\nDesigned By Ayush Sharma GIETU' style={{ fontSize: FontSize }} onChange={(e) => setCode(e.target.value)} value={Code} />
+          <textarea placeholder='please write your code here Designed By Ayush Sharma GIETU' style={{ fontSize: FontSize }} onChange={(e) => setCode(e.target.value)} value={Code} />
         </div>
       </div>
       <div className='inpout'>
