@@ -11,7 +11,7 @@ function App() {
 
   const [Code, setCode] = useState("");
 
-  const [Input, setInput] = useState("Please enter the input before running the code");
+  const [Input, setInput] = useState("");
 
   const [Output, setOutput] = useState("Run to c output");
 
@@ -65,7 +65,7 @@ function App() {
           </div>
         </div>
         <div className='codeArea'>
-          <textarea className='note' style={{ fontSize: FontSize }} onChange={(e) => setCode(e.target.value)} value={Code} />
+          <textarea style={{ fontSize: FontSize }} onChange={(e) => setCode(e.target.value)} value={Code} />
         </div>
       </div>
       <div className='inpout'>
@@ -74,7 +74,7 @@ function App() {
             <div className='Heading'>Input Pannel</div>
           </div>
           <div className='inputSection'>
-            <textarea onChange={(e) => setInput(e.target.value)} value={Input} />
+            <textarea style={{ fontSize: FontSize }} placeholder='Please enter the input before running the code' onChange={(e) => setInput(e.target.value)} value={Input} />
           </div>
         </div>
         <div className='output'>
@@ -82,7 +82,7 @@ function App() {
             <div className='Heading'>Output Pannel</div>
           </div>
           <div className='outputSection'>
-            <textarea style={{ color: "white" }} disabled={true} value={Output} />
+            <textarea style={{ color: "white", fontSize: FontSize }} disabled={true} value={Output} />
           </div>
         </div>
       </div>
