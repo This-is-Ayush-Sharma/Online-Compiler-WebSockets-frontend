@@ -148,7 +148,7 @@ hr{
 
 .codeArea{
   /* border: 2px solid green; */
-  height: 78vh;
+  height: 100%;
 }
 .codeArea textarea{
   width: 100%;
