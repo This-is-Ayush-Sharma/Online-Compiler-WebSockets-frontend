@@ -58,7 +58,7 @@ function App() {
               <select className='seloptn' onChange={(e) => setFileType(e.target.value)} value={FileType}>
                 <option>c</option>
                 <option>cpp</option>
-                {/* <option>java</option> */}
+                <option>java</option>
                 <option>py</option>
               </select>
             </div>
